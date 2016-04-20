@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header>Mortgage Calculator<hr></header>
+	<div class="inputcontainer">
+		<label for="loanBalance">Loan Balance</label>
+		<input type="text" id="loanBalance">
+	</div>
+	<div class="inputcontainer">
+		<label for="rate">Interest Rate(%)</label>
+		<input type="text" id="rate">
+	</div>
+	<div class="inputcontainer">
+		<label for="termYears">Loan Term (years)</label>
+		<input type="text" id="termYears">
+	</div>
+
+	
+	<div id="selectContainer">
+		<label for="planetSelected">Period</label>
+		<select id="planetSelected">
+			<option value="12">Monthly</option>
+			<option value="6">Bi-monthly</option>
+			
+		</select>
+	</div>
+	
+	<button id="calculate">Calculate</button>
+	
+	<p id="result"></p>
+	
+	
+	<script type="text/javascript" src="index.js"></script>
+	<footer>by Ke Wang 2016</footer>
+</body>
+</html>

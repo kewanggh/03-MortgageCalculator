@@ -1,0 +1,91 @@
+body {
+	font-size: Verdana;
+}
+
+header {
+	font-size: 3em;
+	padding-top: 30px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+body{
+	font: sans-serif;
+}
+
+.inputcontainer {
+	margin-left: 20px;
+	text-align: left;
+	margin-bottom: 10px;
+    vertical-align: middle;
+    height: 30px;
+}
+
+label {
+	font-size: 1em;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 10px;
+	text-align: right;
+    width: 200px;
+    vertical-align: middle;
+	
+	
+}
+
+input {
+	width: 40%;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 30px;
+
+}
+
+#selectContainer {
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 10px;
+
+}
+
+select {
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+#calculate {
+	border-radius: 5px;
+	background-color: #4d94ff;
+	color: white;
+	padding: 5px 30px;
+	display: block;
+	min-width: 100px;
+	margin-left: 20%;
+}
+
+p {
+	margin-left: 20px
+}
+span {
+	background-color: #d3d3d3;
+	font-size: 1em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	display: block;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
